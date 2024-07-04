@@ -1,4 +1,3 @@
-from os import system
 from art import logo, vs
 
 import random
@@ -23,9 +22,6 @@ def data_compare(guess, entry_a, entry_b):
     else:
         return guess == "B"
 
-
-def clear():
-    _ = system('cls')
 
 def play_game():
     """Starts the Higher vs Lower Game"""
